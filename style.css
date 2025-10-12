@@ -1,0 +1,47 @@
+body{
+    background: #34495E;
+    margin: 0;
+}
+
+nav {
+    background: #2C3E50;
+    text-align: center;
+    padding: 12px 0;
+    position: sticky;
+    top: 0;
+    z-index: auto;
+    box-shadow: 0 0 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    font-weight: 600;
+    transition: color 0.3s, background 0.3s;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+nav :hover{
+    color: red;
+}
+
+.presentation{
+    color: #48DBFB;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px 0px;
+    font-size: 32px;
+    margin-left: 7%;
+}
+
+#Tom {
+    margin-top: 21%;
+    font-size: 64px;
+}
+
+#logo {
+    opacity:50%;
+    margin-left: 950px;
+    margin-top: -450px;
+}
