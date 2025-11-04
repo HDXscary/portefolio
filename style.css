@@ -5,7 +5,7 @@ body{
 
 nav {
     background: #2C3E50;
-    padding: 12px 20px;
+    padding: 12px 12px;
     position: sticky;
     top: 0;
     z-index: 2;
@@ -13,7 +13,9 @@ nav {
 }
 
 #lg{
-    width: 2%;
+    width: 38px;
+    position:absolute;
+    top: 7px;
 }
 
 nav a {
@@ -24,17 +26,16 @@ nav a {
     transition: color 0.3s, background 0.3s;
     border-radius: 5px;
     font-size: 25px;
+    margin-left: 3%;
 }
 
 #CONTACT{
-    margin-left: 55%;
+    margin-left: 48%;
 }
 
 nav :hover{
     color: red;
 }
-
-
 
 .presentation{
     color: #48DBFB;
