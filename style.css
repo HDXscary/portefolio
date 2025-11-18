@@ -52,8 +52,8 @@ nav :hover{
 }
 
 #Tom {
-    font-size: 64px;
     padding-top:21% ;
+    font-size: 64px;
 }
 
 #logo {
@@ -159,4 +159,91 @@ nav :hover{
     margin-left: 3%;
     margin-top: 3%;
     color: #000;
+}
+
+#casecontact{
+    height: 1300px;
+    width: 100%;
+    text-align: center;
+    box-shadow: inset 0 0 30px #212e3b;
+    margin:8% 0 0 0
+}
+
+#cont{  
+    padding-top: 7%;
+}
+
+#Numéro{
+    justify-self: center;
+    width: 40%;
+    padding: 3%;
+    background-color: #2C3E50;
+    box-shadow: 0 0 20px #212e3b;
+}
+
+.content{
+    margin:70px auto;
+    width: 50%;
+    height: 10%;
+    padding: 20px;
+    background: #2C3E50;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #212e3b;
+    align-items: center;
+    text-align: center;
+    color: #00d9ff;
+}
+.form-group label{
+    display: block;
+    margin-bottom: 20px;
+}
+.form-group{
+    margin:40px auto;
+    width: 50%;
+    height: 10%;
+    padding: 20px;
+    background: #2C3E50;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #212e3b;
+    align-items: center;
+    color: #00d9ff;
+    border: 2px solid #00d9ff;
+}
+
+.formulaire{
+    margin:40px auto;
+    width: 50%;
+    height: 10%;
+    padding: 20px;
+    background: #2C3E50;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #212e3b;
+    align-items: center;
+    color: #00d9ff;
+    border: 2px solid #00d9ff;
+}
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 15px;
+    background: #2C3E50;
+    border: 2px solid #00d9ff;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Arial', sans-serif;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px #212e3b;
+    box-sizing: border-box;
+}
+
+button{
+    margin-left: 60%;
+    width: 30%;
+    padding: 15px;
+    border-radius: 20px;
+    border: 2px solid #00d9ff;
+    background: #2C3E50;
+    color: #00d9ff;
+    box-sizing: border-box;
+    overflow: auto;
 }

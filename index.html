@@ -9,7 +9,7 @@
 <body>
     <nav>
         <img id="lg" src="image/logo 1.png" alt="Photo de profil" />
-        <a href="#Tom">ACCEUIL</a>
+        <a href="#logo">ACCEUIL</a>
         <a href="#moi">MIEUX ME CONNAÎTRE</a>
         <a href="#PARCOUR">MON PARCOUR</a>
         <a href="#PROJETS">MES PROJETS</a>
@@ -62,7 +62,35 @@
     </section>
     <section>
         <main id="casecontact">
-            <h2 class="title">CONTACT</h2>
+            <h2  id="cont" class="title">CONTACT</h2>
+            <div id="Numéro">
+                <p class="text">Numéro : 06 17 27 08 85</p>
+                <p class="text">Email : tomhilaire9@gmail.com</p>
+            </div>
+            <div>
+                <div class="content" style="max-width: 600px;">
+                    <p class="formulaire">formulaire pour votre requete</p>
+                    <form id="requeteform">
+                        <div class="form-group">
+                            <label for="name">prenom *</label>
+                            <input type="text" id="name" name="name" placeholder="Votre prenom" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" placeholder="votre.email@exemple.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="requete">requete *</label>
+                            <textarea id="requete" name="requete" placeholder="Votre requete..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="button submit">Envoyer le message</button>
+                    </form>
+                    <div id="formMessage"></div>
+                </div>
+            </div>
         </main>
     </section>
 </body>
