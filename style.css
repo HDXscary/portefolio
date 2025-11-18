@@ -52,8 +52,8 @@ nav :hover{
 }
 
 #Tom {
-    margin-top: 21%;
     font-size: 64px;
+    padding-top:21% ;
 }
 
 #logo {
