@@ -239,16 +239,6 @@ nav {
     margin:8% 0 0 0
 }
 
-#Numéro{
-    justify-self: center;
-    width: 40%;
-    padding: 3%;
-    background-color: #2C3E50;
-    box-shadow: 0 0 20px #212e3b;
-    overflow-x: auto;
-    margin: 0 27vw;
-}
-
 .content{
     margin:70px auto;
     width: 50%;
